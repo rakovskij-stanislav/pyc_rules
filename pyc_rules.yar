@@ -582,6 +582,9 @@ rule python_bytecode_version__3_11a5 {
         author = "Rakovskij Stanislav / disasm.me"
         description = "Python bytecode from version 3.11a5"
     condition:
-        uint32be(0) == 0x930d0d0a
+        uint32be(0) == 0x930d0d0a or 
+        uint32be(0) == 0x940d0d0a or 
+        uint32be(0) == 0x950d0d0a or 
+        uint32be(0) == 0x960d0d0a
 }
 
