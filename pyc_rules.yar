@@ -588,6 +588,10 @@ rule python_bytecode_version__3_11a5 {
         uint32be(0) == 0x960d0d0a or 
         uint32be(0) == 0x970d0d0a or 
         uint32be(0) == 0x980d0d0a or 
-        uint32be(0) == 0x990d0d0a
+        uint32be(0) == 0x990d0d0a or 
+        uint32be(0) == 0x9a0d0d0a or 
+        uint32be(0) == 0x9b0d0d0a or 
+        uint32be(0) == 0x9c0d0d0a or 
+        uint32be(0) == 0x9d0d0d0a
 }
 
