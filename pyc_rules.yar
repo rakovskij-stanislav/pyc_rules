@@ -614,6 +614,7 @@ rule python_bytecode_version__3_11a7 {
         description = "Python bytecode from version 3.11a7"
     condition:
         uint32be(0) == 0xa40d0d0a or 
-        uint32be(0) == 0xa50d0d0a
+        uint32be(0) == 0xa50d0d0a or 
+        uint32be(0) == 0xa60d0d0a
 }
 
