@@ -632,13 +632,35 @@ rule python_bytecode_version__3_12a1 {
         uint32be(0) == 0xb20d0d0a or 
         uint32be(0) == 0xb30d0d0a or 
         uint32be(0) == 0xb40d0d0a or 
-        uint32be(0) == 0xb50d0d0a or 
+        uint32be(0) == 0xb50d0d0a
+}
+
+rule python_bytecode_version__3_12a2 {
+    meta:
+        author = "Rakovskij Stanislav / disasm.me"
+        description = "Python bytecode from version 3.12a2"
+    condition:
         uint32be(0) == 0xb60d0d0a or 
         uint32be(0) == 0xb70d0d0a or 
-        uint32be(0) == 0xb80d0d0a or 
+        uint32be(0) == 0xb80d0d0a
+}
+
+rule python_bytecode_version__3_12a4 {
+    meta:
+        author = "Rakovskij Stanislav / disasm.me"
+        description = "Python bytecode from version 3.12a4"
+    condition:
         uint32be(0) == 0xb90d0d0a or 
-        uint32be(0) == 0xba0d0d0a or 
+        uint32be(0) == 0xba0d0d0a
+}
+
+rule python_bytecode_version__3_12a5 {
+    meta:
+        author = "Rakovskij Stanislav / disasm.me"
+        description = "Python bytecode from version 3.12a5"
+    condition:
         uint32be(0) == 0xbb0d0d0a or 
-        uint32be(0) == 0xbc0d0d0a
+        uint32be(0) == 0xbc0d0d0a or 
+        uint32be(0) == 0xbd0d0d0a
 }
 
