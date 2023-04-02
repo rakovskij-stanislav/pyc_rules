@@ -680,6 +680,8 @@ rule python_bytecode_version__3_12a7 {
         description = "Python bytecode from version 3.12a7"
     condition:
         uint32be(0) == 0xc10d0d0a or 
-        uint32be(0) == 0xc30d0d0a
+        uint32be(0) == 0xc20d0d0a or 
+        uint32be(0) == 0xc30d0d0a or 
+        uint32be(0) == 0xc40d0d0a
 }
 
