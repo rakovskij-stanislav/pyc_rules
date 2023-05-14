@@ -693,6 +693,8 @@ rule python_bytecode_version__3_12b1 {
         uint32be(0) == 0xc50d0d0a or 
         uint32be(0) == 0xc60d0d0a or 
         uint32be(0) == 0xc70d0d0a or 
-        uint32be(0) == 0xc80d0d0a
+        uint32be(0) == 0xc80d0d0a or 
+        uint32be(0) == 0xc90d0d0a or 
+        uint32be(0) == 0xca0d0d0a
 }
 
