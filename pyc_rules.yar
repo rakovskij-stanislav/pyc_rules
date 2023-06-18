@@ -705,6 +705,9 @@ rule python_bytecode_version__3_13a1 {
         description = "Python bytecode from version 3.13a1"
     condition:
         uint32be(0) == 0xde0d0d0a or 
-        uint32be(0) == 0xdf0d0d0a
+        uint32be(0) == 0xdf0d0d0a or 
+        uint32be(0) == 0xe00d0d0a or 
+        uint32be(0) == 0xe10d0d0a or 
+        uint32be(0) == 0xe20d0d0a
 }
 
