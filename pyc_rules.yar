@@ -733,3 +733,11 @@ rule python_bytecode_version__3_13a1 {
         uint32be(0) == 0xf00d0d0a
 }
 
+rule python_bytecode_version__3_13a5 {
+    meta:
+        author = "Rakovskij Stanislav / disasm.me"
+        description = "Python bytecode from version 3.13a5"
+    condition:
+        uint32be(0) == 0xf10d0d0a
+}
+
