@@ -754,6 +754,7 @@ rule python_bytecode_version__3_14a1 {
         author = "Rakovskij Stanislav / disasm.me"
         description = "Python bytecode from version 3.14a1"
     condition:
-        uint32be(0) == 0x100e0d0a
+        uint32be(0) == 0x100e0d0a or 
+        uint32be(0) == 0x110e0d0a
 }
 
