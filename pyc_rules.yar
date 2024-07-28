@@ -756,6 +756,7 @@ rule python_bytecode_version__3_14a1 {
     condition:
         uint32be(0) == 0x100e0d0a or 
         uint32be(0) == 0x110e0d0a or 
-        uint32be(0) == 0x120e0d0a
+        uint32be(0) == 0x120e0d0a or 
+        uint32be(0) == 0x130e0d0a
 }
 
