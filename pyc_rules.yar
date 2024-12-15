@@ -4,7 +4,7 @@ rule python_bytecode_version__1_5 {
         description = "Python bytecode from version 1.5"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x994e0d0a
 }
@@ -15,7 +15,7 @@ rule python_bytecode_version__1_5_1 {
         description = "Python bytecode from version 1.5.1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x994e0d0a
 }
@@ -26,7 +26,7 @@ rule python_bytecode_version__1_5_2 {
         description = "Python bytecode from version 1.5.2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x994e0d0a
 }
@@ -37,7 +37,7 @@ rule python_bytecode_version__1_6 {
         description = "Python bytecode from version 1.6"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xfcc40d0a
 }
@@ -48,7 +48,7 @@ rule python_bytecode_version__2_0 {
         description = "Python bytecode from version 2.0"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x87c60d0a
 }
@@ -59,7 +59,7 @@ rule python_bytecode_version__2_0_1 {
         description = "Python bytecode from version 2.0.1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x87c60d0a
 }
@@ -70,7 +70,7 @@ rule python_bytecode_version__2_1 {
         description = "Python bytecode from version 2.1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x2aeb0d0a
 }
@@ -81,7 +81,7 @@ rule python_bytecode_version__2_1_1 {
         description = "Python bytecode from version 2.1.1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x2aeb0d0a
 }
@@ -92,7 +92,7 @@ rule python_bytecode_version__2_1_2 {
         description = "Python bytecode from version 2.1.2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x2aeb0d0a
 }
@@ -103,7 +103,7 @@ rule python_bytecode_version__2_2 {
         description = "Python bytecode from version 2.2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x2ded0d0a
 }
@@ -114,7 +114,7 @@ rule python_bytecode_version__2_3a0 {
         description = "Python bytecode from version 2.3a0"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x3bf20d0a or 
         uint32be(0) == 0x45f20d0a or 
@@ -127,7 +127,7 @@ rule python_bytecode_version__2_4a0 {
         description = "Python bytecode from version 2.4a0"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x59f20d0a
 }
@@ -138,7 +138,7 @@ rule python_bytecode_version__2_4a3 {
         description = "Python bytecode from version 2.4a3"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x63f20d0a
 }
@@ -149,7 +149,7 @@ rule python_bytecode_version__2_4b1 {
         description = "Python bytecode from version 2.4b1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x6df20d0a
 }
@@ -160,7 +160,7 @@ rule python_bytecode_version__2_5a0 {
         description = "Python bytecode from version 2.5a0"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x77f20d0a or 
         uint32be(0) == 0x81f20d0a or 
@@ -174,7 +174,7 @@ rule python_bytecode_version__2_5b3 {
         description = "Python bytecode from version 2.5b3"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x95f20d0a or 
         uint32be(0) == 0x9ff20d0a
@@ -186,7 +186,7 @@ rule python_bytecode_version__2_5c1 {
         description = "Python bytecode from version 2.5c1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xa9f20d0a
 }
@@ -197,7 +197,7 @@ rule python_bytecode_version__2_5c2 {
         description = "Python bytecode from version 2.5c2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xb3f20d0a
 }
@@ -208,7 +208,7 @@ rule python_bytecode_version__2_6a0 {
         description = "Python bytecode from version 2.6a0"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xc7f20d0a
 }
@@ -219,7 +219,7 @@ rule python_bytecode_version__2_6a1 {
         description = "Python bytecode from version 2.6a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xd1f20d0a
 }
@@ -230,7 +230,7 @@ rule python_bytecode_version__2_7a0 {
         description = "Python bytecode from version 2.7a0"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xdbf20d0a or 
         uint32be(0) == 0xe5f20d0a or 
@@ -245,7 +245,7 @@ rule python_bytecode_version__3000 {
         description = "Python bytecode from version 3000"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xb80b0d0a or 
         uint32be(0) == 0xc20b0d0a or 
@@ -268,7 +268,7 @@ rule python_bytecode_version__3_0a4 {
         description = "Python bytecode from version 3.0a4"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x270c0d0a
 }
@@ -279,7 +279,7 @@ rule python_bytecode_version__3_0b1 {
         description = "Python bytecode from version 3.0b1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x3b0c0d0a
 }
@@ -290,7 +290,7 @@ rule python_bytecode_version__3_1a1 {
         description = "Python bytecode from version 3.1a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x450c0d0a or 
         uint32be(0) == 0x4f0c0d0a
@@ -302,7 +302,7 @@ rule python_bytecode_version__3_2a1 {
         description = "Python bytecode from version 3.2a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x580c0d0a
 }
@@ -313,7 +313,7 @@ rule python_bytecode_version__3_2a2 {
         description = "Python bytecode from version 3.2a2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x620c0d0a
 }
@@ -324,7 +324,7 @@ rule python_bytecode_version__3_2a3 {
         description = "Python bytecode from version 3.2a3"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x6c0c0d0a
 }
@@ -335,7 +335,7 @@ rule python_bytecode_version__3_3a1 {
         description = "Python bytecode from version 3.3a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x760c0d0a or 
         uint32be(0) == 0x800c0d0a or 
@@ -348,7 +348,7 @@ rule python_bytecode_version__3_3a2 {
         description = "Python bytecode from version 3.3a2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x940c0d0a
 }
@@ -359,7 +359,7 @@ rule python_bytecode_version__3_3a4 {
         description = "Python bytecode from version 3.3a4"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x9e0c0d0a
 }
@@ -370,7 +370,7 @@ rule python_bytecode_version__3_4a1 {
         description = "Python bytecode from version 3.4a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xb20c0d0a or 
         uint32be(0) == 0xbc0c0d0a or 
@@ -384,7 +384,7 @@ rule python_bytecode_version__3_4a4 {
         description = "Python bytecode from version 3.4a4"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xda0c0d0a or 
         uint32be(0) == 0xe40c0d0a
@@ -396,7 +396,7 @@ rule python_bytecode_version__3_4rc2 {
         description = "Python bytecode from version 3.4rc2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xee0c0d0a
 }
@@ -407,7 +407,7 @@ rule python_bytecode_version__3_5a1 {
         description = "Python bytecode from version 3.5a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xf80c0d0a
 }
@@ -418,7 +418,7 @@ rule python_bytecode_version__3_5b1 {
         description = "Python bytecode from version 3.5b1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x020d0d0a
 }
@@ -429,7 +429,7 @@ rule python_bytecode_version__3_5b2 {
         description = "Python bytecode from version 3.5b2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x0c0d0d0a
 }
@@ -440,7 +440,7 @@ rule python_bytecode_version__3_5b3 {
         description = "Python bytecode from version 3.5b3"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x160d0d0a
 }
@@ -451,7 +451,7 @@ rule python_bytecode_version__3_5_2 {
         description = "Python bytecode from version 3.5.2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x170d0d0a
 }
@@ -462,7 +462,7 @@ rule python_bytecode_version__3_6a0 {
         description = "Python bytecode from version 3.6a0"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x200d0d0a
 }
@@ -473,7 +473,7 @@ rule python_bytecode_version__3_6a1 {
         description = "Python bytecode from version 3.6a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x210d0d0a
 }
@@ -484,7 +484,7 @@ rule python_bytecode_version__3_6a2 {
         description = "Python bytecode from version 3.6a2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x2a0d0d0a or 
         uint32be(0) == 0x2b0d0d0a or 
@@ -497,7 +497,7 @@ rule python_bytecode_version__3_6b1 {
         description = "Python bytecode from version 3.6b1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x2d0d0d0a or 
         uint32be(0) == 0x2f0d0d0a or 
@@ -511,7 +511,7 @@ rule python_bytecode_version__3_6b2 {
         description = "Python bytecode from version 3.6b2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x320d0d0a
 }
@@ -522,7 +522,7 @@ rule python_bytecode_version__3_6rc1 {
         description = "Python bytecode from version 3.6rc1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x330d0d0a
 }
@@ -533,7 +533,7 @@ rule python_bytecode_version__3_7a1 {
         description = "Python bytecode from version 3.7a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x3e0d0d0a
 }
@@ -544,7 +544,7 @@ rule python_bytecode_version__3_7a2 {
         description = "Python bytecode from version 3.7a2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x3f0d0d0a
 }
@@ -555,7 +555,7 @@ rule python_bytecode_version__3_7a4 {
         description = "Python bytecode from version 3.7a4"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x400d0d0a
 }
@@ -566,7 +566,7 @@ rule python_bytecode_version__3_7b1 {
         description = "Python bytecode from version 3.7b1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x410d0d0a
 }
@@ -577,7 +577,7 @@ rule python_bytecode_version__3_7b5 {
         description = "Python bytecode from version 3.7b5"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x420d0d0a
 }
@@ -588,7 +588,7 @@ rule python_bytecode_version__3_8a1 {
         description = "Python bytecode from version 3.8a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x480d0d0a or 
         uint32be(0) == 0x490d0d0a or 
@@ -601,7 +601,7 @@ rule python_bytecode_version__3_8b2 {
         description = "Python bytecode from version 3.8b2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x530d0d0a or 
         uint32be(0) == 0x540d0d0a
@@ -613,7 +613,7 @@ rule python_bytecode_version__3_8b4 {
         description = "Python bytecode from version 3.8b4"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x550d0d0a
 }
@@ -624,7 +624,7 @@ rule python_bytecode_version__3_9a0 {
         description = "Python bytecode from version 3.9a0"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x5c0d0d0a or 
         uint32be(0) == 0x5d0d0d0a or 
@@ -637,7 +637,7 @@ rule python_bytecode_version__3_9a2 {
         description = "Python bytecode from version 3.9a2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x5f0d0d0a or 
         uint32be(0) == 0x600d0d0a or 
@@ -650,7 +650,7 @@ rule python_bytecode_version__3_10a1 {
         description = "Python bytecode from version 3.10a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x660d0d0a or 
         uint32be(0) == 0x670d0d0a
@@ -662,7 +662,7 @@ rule python_bytecode_version__3_10a2 {
         description = "Python bytecode from version 3.10a2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x680d0d0a or 
         uint32be(0) == 0x690d0d0a
@@ -674,7 +674,7 @@ rule python_bytecode_version__3_10a6 {
         description = "Python bytecode from version 3.10a6"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x6a0d0d0a
 }
@@ -685,7 +685,7 @@ rule python_bytecode_version__3_10a7 {
         description = "Python bytecode from version 3.10a7"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x6b0d0d0a
 }
@@ -696,7 +696,7 @@ rule python_bytecode_version__3_10b1 {
         description = "Python bytecode from version 3.10b1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x6c0d0d0a or 
         uint32be(0) == 0x6d0d0d0a or 
@@ -710,7 +710,7 @@ rule python_bytecode_version__3_11a1 {
         description = "Python bytecode from version 3.11a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x7a0d0d0a or 
         uint32be(0) == 0x7b0d0d0a or 
@@ -732,7 +732,7 @@ rule python_bytecode_version__3_11a2 {
         description = "Python bytecode from version 3.11a2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x860d0d0a
 }
@@ -743,7 +743,7 @@ rule python_bytecode_version__3_11a3 {
         description = "Python bytecode from version 3.11a3"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x870d0d0a or 
         uint32be(0) == 0x880d0d0a or 
@@ -756,7 +756,7 @@ rule python_bytecode_version__3_11a4 {
         description = "Python bytecode from version 3.11a4"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x8a0d0d0a or 
         uint32be(0) == 0x8b0d0d0a or 
@@ -775,7 +775,7 @@ rule python_bytecode_version__3_11a5 {
         description = "Python bytecode from version 3.11a5"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x930d0d0a or 
         uint32be(0) == 0x940d0d0a or 
@@ -796,7 +796,7 @@ rule python_bytecode_version__3_11a6 {
         description = "Python bytecode from version 3.11a6"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x9e0d0d0a or 
         uint32be(0) == 0x9f0d0d0a or 
@@ -812,7 +812,7 @@ rule python_bytecode_version__3_11a7 {
         description = "Python bytecode from version 3.11a7"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xa40d0d0a or 
         uint32be(0) == 0xa50d0d0a or 
@@ -825,7 +825,7 @@ rule python_bytecode_version__3_11b4 {
         description = "Python bytecode from version 3.11b4"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xa70d0d0a
 }
@@ -836,7 +836,7 @@ rule python_bytecode_version__3_12a1 {
         description = "Python bytecode from version 3.12a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xac0d0d0a or 
         uint32be(0) == 0xad0d0d0a or 
@@ -856,7 +856,7 @@ rule python_bytecode_version__3_12a2 {
         description = "Python bytecode from version 3.12a2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xb60d0d0a or 
         uint32be(0) == 0xb70d0d0a or 
@@ -869,7 +869,7 @@ rule python_bytecode_version__3_12a4 {
         description = "Python bytecode from version 3.12a4"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xb90d0d0a or 
         uint32be(0) == 0xba0d0d0a
@@ -881,7 +881,7 @@ rule python_bytecode_version__3_12a5 {
         description = "Python bytecode from version 3.12a5"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xbb0d0d0a or 
         uint32be(0) == 0xbc0d0d0a or 
@@ -894,7 +894,7 @@ rule python_bytecode_version__3_12a6 {
         description = "Python bytecode from version 3.12a6"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xbe0d0d0a or 
         uint32be(0) == 0xbf0d0d0a or 
@@ -907,7 +907,7 @@ rule python_bytecode_version__3_12a7 {
         description = "Python bytecode from version 3.12a7"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xc10d0d0a or 
         uint32be(0) == 0xc20d0d0a or 
@@ -921,7 +921,7 @@ rule python_bytecode_version__3_12b1 {
         description = "Python bytecode from version 3.12b1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xc50d0d0a or 
         uint32be(0) == 0xc60d0d0a or 
@@ -938,7 +938,7 @@ rule python_bytecode_version__3_13a1 {
         description = "Python bytecode from version 3.13a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xde0d0d0a or 
         uint32be(0) == 0xdf0d0d0a or 
@@ -967,7 +967,7 @@ rule python_bytecode_version__3_13a5 {
         description = "Python bytecode from version 3.13a5"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xf10d0d0a
 }
@@ -978,7 +978,7 @@ rule python_bytecode_version__3_13a6 {
         description = "Python bytecode from version 3.13a6"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xf20d0d0a
 }
@@ -989,7 +989,7 @@ rule python_bytecode_version__3_13b1 {
         description = "Python bytecode from version 3.13b1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0xf30d0d0a
 }
@@ -1000,7 +1000,7 @@ rule python_bytecode_version__3_14a1 {
         description = "Python bytecode from version 3.14a1"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x100e0d0a or 
         uint32be(0) == 0x110e0d0a or 
@@ -1019,7 +1019,7 @@ rule python_bytecode_version__3_14a2 {
         description = "Python bytecode from version 3.14a2"
         author = "Rakovsky Stanislav @ https://t.me/disasm_me_ch"
         license = "MIT"
-        date = "2024-12-08" // latest ruleset update
+        date = "2024-12-15" // latest ruleset update
     condition:
         uint32be(0) == 0x190e0d0a
 }
